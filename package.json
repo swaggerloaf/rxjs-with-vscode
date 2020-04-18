@@ -2,8 +2,8 @@
   "name": "learnrxlj",
   "version": "1.0.0",
   "description": "fun",
-  "main": "main.js",
   "scripts": {
+    "start": "webpack-dev-server --open",
     "test": "test"
   },
   "keywords": [
@@ -13,5 +13,12 @@
   "license": "ISC",
   "dependencies": {
     "rxjs": "^6.5.5"
+  },
+  "devDependencies": {
+    "ts-loader": "^7.0.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
   }
 }
