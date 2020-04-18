@@ -1,0 +1,17 @@
+{
+  "name": "learnrxlj",
+  "version": "1.0.0",
+  "description": "fun",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "rxjs"
+  ],
+  "author": "swaggerloaf",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.5.5"
+  }
+}
